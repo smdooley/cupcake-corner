@@ -17,6 +17,8 @@
 		E463A0972CF5DD5800744481 /* CodableConformanceClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A0962CF5DD5800744481 /* CodableConformanceClassView.swift */; };
 		E463A0992CF5DDDC00744481 /* HapticEffectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A0982CF5DDDC00744481 /* HapticEffectsView.swift */; };
 		E463A09B2CF5DE8A00744481 /* CoreHapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A09A2CF5DE8A00744481 /* CoreHapticsView.swift */; };
+		E463A09D2CF5DFD400744481 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A09C2CF5DFD400744481 /* Order.swift */; };
+		E463A09F2CF5E1B500744481 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A09E2CF5E1B500744481 /* AddressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		E463A0962CF5DD5800744481 /* CodableConformanceClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableConformanceClassView.swift; sourceTree = "<group>"; };
 		E463A0982CF5DDDC00744481 /* HapticEffectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticEffectsView.swift; sourceTree = "<group>"; };
 		E463A09A2CF5DE8A00744481 /* CoreHapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreHapticsView.swift; sourceTree = "<group>"; };
+		E463A09C2CF5DFD400744481 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		E463A09E2CF5E1B500744481 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				E463A0832CF5CB8A00744481 /* ContentView.swift */,
 				E463A0852CF5CB8C00744481 /* Assets.xcassets */,
 				E463A0872CF5CB8C00744481 /* Preview Content */,
+				E463A09C2CF5DFD400744481 /* Order.swift */,
+				E463A09E2CF5E1B500744481 /* AddressView.swift */,
 			);
 			path = CupcakeCorner;
 			sourceTree = "<group>";
@@ -166,11 +172,13 @@
 				E463A09B2CF5DE8A00744481 /* CoreHapticsView.swift in Sources */,
 				E463A0972CF5DD5800744481 /* CodableConformanceClassView.swift in Sources */,
 				E463A0842CF5CB8A00744481 /* ContentView.swift in Sources */,
+				E463A09D2CF5DFD400744481 /* Order.swift in Sources */,
 				E463A0932CF5DACE00744481 /* LoadingImageView.swift in Sources */,
 				E463A0822CF5CB8A00744481 /* CupcakeCornerApp.swift in Sources */,
 				E463A0912CF5D87A00744481 /* SendReceiveDataView.swift in Sources */,
 				E463A0952CF5DB9F00744481 /* FormValidationView.swift in Sources */,
 				E463A0992CF5DDDC00744481 /* HapticEffectsView.swift in Sources */,
+				E463A09F2CF5E1B500744481 /* AddressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
