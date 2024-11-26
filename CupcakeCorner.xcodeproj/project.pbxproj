@@ -13,6 +13,7 @@
 		E463A0892CF5CB8C00744481 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E463A0882CF5CB8C00744481 /* Preview Assets.xcassets */; };
 		E463A0912CF5D87A00744481 /* SendReceiveDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A0902CF5D87A00744481 /* SendReceiveDataView.swift */; };
 		E463A0932CF5DACE00744481 /* LoadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A0922CF5DACE00744481 /* LoadingImageView.swift */; };
+		E463A0952CF5DB9F00744481 /* FormValidationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A0942CF5DB9F00744481 /* FormValidationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		E463A0882CF5CB8C00744481 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E463A0902CF5D87A00744481 /* SendReceiveDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendReceiveDataView.swift; sourceTree = "<group>"; };
 		E463A0922CF5DACE00744481 /* LoadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingImageView.swift; sourceTree = "<group>"; };
+		E463A0942CF5DB9F00744481 /* FormValidationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				E463A0902CF5D87A00744481 /* SendReceiveDataView.swift */,
 				E463A0922CF5DACE00744481 /* LoadingImageView.swift */,
+				E463A0942CF5DB9F00744481 /* FormValidationView.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				E463A0932CF5DACE00744481 /* LoadingImageView.swift in Sources */,
 				E463A0822CF5CB8A00744481 /* CupcakeCornerApp.swift in Sources */,
 				E463A0912CF5D87A00744481 /* SendReceiveDataView.swift in Sources */,
+				E463A0952CF5DB9F00744481 /* FormValidationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
