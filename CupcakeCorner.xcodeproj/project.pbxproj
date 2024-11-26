@@ -15,6 +15,8 @@
 		E463A0932CF5DACE00744481 /* LoadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A0922CF5DACE00744481 /* LoadingImageView.swift */; };
 		E463A0952CF5DB9F00744481 /* FormValidationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A0942CF5DB9F00744481 /* FormValidationView.swift */; };
 		E463A0972CF5DD5800744481 /* CodableConformanceClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A0962CF5DD5800744481 /* CodableConformanceClassView.swift */; };
+		E463A0992CF5DDDC00744481 /* HapticEffectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A0982CF5DDDC00744481 /* HapticEffectsView.swift */; };
+		E463A09B2CF5DE8A00744481 /* CoreHapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A09A2CF5DE8A00744481 /* CoreHapticsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		E463A0922CF5DACE00744481 /* LoadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingImageView.swift; sourceTree = "<group>"; };
 		E463A0942CF5DB9F00744481 /* FormValidationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidationView.swift; sourceTree = "<group>"; };
 		E463A0962CF5DD5800744481 /* CodableConformanceClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableConformanceClassView.swift; sourceTree = "<group>"; };
+		E463A0982CF5DDDC00744481 /* HapticEffectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticEffectsView.swift; sourceTree = "<group>"; };
+		E463A09A2CF5DE8A00744481 /* CoreHapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreHapticsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				E463A0922CF5DACE00744481 /* LoadingImageView.swift */,
 				E463A0942CF5DB9F00744481 /* FormValidationView.swift */,
 				E463A0962CF5DD5800744481 /* CodableConformanceClassView.swift */,
+				E463A0982CF5DDDC00744481 /* HapticEffectsView.swift */,
+				E463A09A2CF5DE8A00744481 /* CoreHapticsView.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -157,12 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E463A09B2CF5DE8A00744481 /* CoreHapticsView.swift in Sources */,
 				E463A0972CF5DD5800744481 /* CodableConformanceClassView.swift in Sources */,
 				E463A0842CF5CB8A00744481 /* ContentView.swift in Sources */,
 				E463A0932CF5DACE00744481 /* LoadingImageView.swift in Sources */,
 				E463A0822CF5CB8A00744481 /* CupcakeCornerApp.swift in Sources */,
 				E463A0912CF5D87A00744481 /* SendReceiveDataView.swift in Sources */,
 				E463A0952CF5DB9F00744481 /* FormValidationView.swift in Sources */,
+				E463A0992CF5DDDC00744481 /* HapticEffectsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
