@@ -11,6 +11,7 @@
 		E463A0842CF5CB8A00744481 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A0832CF5CB8A00744481 /* ContentView.swift */; };
 		E463A0862CF5CB8C00744481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E463A0852CF5CB8C00744481 /* Assets.xcassets */; };
 		E463A0892CF5CB8C00744481 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E463A0882CF5CB8C00744481 /* Preview Assets.xcassets */; };
+		E463A0912CF5D87A00744481 /* SendReceiveDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A0902CF5D87A00744481 /* SendReceiveDataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E463A0832CF5CB8A00744481 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E463A0852CF5CB8C00744481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E463A0882CF5CB8C00744481 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E463A0902CF5D87A00744481 /* SendReceiveDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendReceiveDataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		E463A0802CF5CB8A00744481 /* CupcakeCorner */ = {
 			isa = PBXGroup;
 			children = (
+				E463A08F2CF5D85800744481 /* Tutorials */,
 				E463A0812CF5CB8A00744481 /* CupcakeCornerApp.swift */,
 				E463A0832CF5CB8A00744481 /* ContentView.swift */,
 				E463A0852CF5CB8C00744481 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				E463A0882CF5CB8C00744481 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E463A08F2CF5D85800744481 /* Tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				E463A0902CF5D87A00744481 /* SendReceiveDataView.swift */,
+			);
+			path = Tutorials;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				E463A0842CF5CB8A00744481 /* ContentView.swift in Sources */,
 				E463A0822CF5CB8A00744481 /* CupcakeCornerApp.swift in Sources */,
+				E463A0912CF5D87A00744481 /* SendReceiveDataView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
