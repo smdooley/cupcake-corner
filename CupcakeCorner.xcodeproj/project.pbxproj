@@ -19,6 +19,7 @@
 		E463A09B2CF5DE8A00744481 /* CoreHapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A09A2CF5DE8A00744481 /* CoreHapticsView.swift */; };
 		E463A09D2CF5DFD400744481 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A09C2CF5DFD400744481 /* Order.swift */; };
 		E463A09F2CF5E1B500744481 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A09E2CF5E1B500744481 /* AddressView.swift */; };
+		E463A0A12CF6029A00744481 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A0A02CF6029A00744481 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		E463A09A2CF5DE8A00744481 /* CoreHapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreHapticsView.swift; sourceTree = "<group>"; };
 		E463A09C2CF5DFD400744481 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		E463A09E2CF5E1B500744481 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		E463A0A02CF6029A00744481 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				E463A0872CF5CB8C00744481 /* Preview Content */,
 				E463A09C2CF5DFD400744481 /* Order.swift */,
 				E463A09E2CF5E1B500744481 /* AddressView.swift */,
+				E463A0A02CF6029A00744481 /* CheckoutView.swift */,
 			);
 			path = CupcakeCorner;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E463A09B2CF5DE8A00744481 /* CoreHapticsView.swift in Sources */,
+				E463A0A12CF6029A00744481 /* CheckoutView.swift in Sources */,
 				E463A0972CF5DD5800744481 /* CodableConformanceClassView.swift in Sources */,
 				E463A0842CF5CB8A00744481 /* ContentView.swift in Sources */,
 				E463A09D2CF5DFD400744481 /* Order.swift in Sources */,
