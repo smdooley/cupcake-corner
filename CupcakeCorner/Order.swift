@@ -70,4 +70,26 @@ class Order: Codable {
 
         return cost
     }
+    
+    init() {
+        load()
+    }
+
+    func save() {
+        if let encoded = try? JSONEncoder().encode(self) {
+            UserDefaults.standard.set(encoded, forKey: "order")
+        }
+    }
+
+    func load() {
+        if let savedOrder = UserDefaults.standard.data(forKey: "order") {
+            if let decodedOrder = try? JSONDecoder().decode(Order.self, from: savedOrder) {
+                
+                self.name = decodedOrder.name
+                self.streetAddress = decodedOrder.streetAddress
+                self.city = decodedOrder.city
+                self.zip = decodedOrder.zip
+            }
+        }
+    }
 }
