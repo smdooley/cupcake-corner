@@ -20,6 +20,7 @@
 		E463A09D2CF5DFD400744481 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A09C2CF5DFD400744481 /* Order.swift */; };
 		E463A09F2CF5E1B500744481 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A09E2CF5E1B500744481 /* AddressView.swift */; };
 		E463A0A12CF6029A00744481 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A0A02CF6029A00744481 /* CheckoutView.swift */; };
+		E463A0A32CF72D9600744481 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E463A0A22CF72D9600744481 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		E463A09C2CF5DFD400744481 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		E463A09E2CF5E1B500744481 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 		E463A0A02CF6029A00744481 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		E463A0A22CF72D9600744481 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				E463A09C2CF5DFD400744481 /* Order.swift */,
 				E463A09E2CF5E1B500744481 /* AddressView.swift */,
 				E463A0A02CF6029A00744481 /* CheckoutView.swift */,
+				E463A0A22CF72D9600744481 /* Extensions.swift */,
 			);
 			path = CupcakeCorner;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				E463A09D2CF5DFD400744481 /* Order.swift in Sources */,
 				E463A0932CF5DACE00744481 /* LoadingImageView.swift in Sources */,
 				E463A0822CF5CB8A00744481 /* CupcakeCornerApp.swift in Sources */,
+				E463A0A32CF72D9600744481 /* Extensions.swift in Sources */,
 				E463A0912CF5D87A00744481 /* SendReceiveDataView.swift in Sources */,
 				E463A0952CF5DB9F00744481 /* FormValidationView.swift in Sources */,
 				E463A0992CF5DDDC00744481 /* HapticEffectsView.swift in Sources */,
